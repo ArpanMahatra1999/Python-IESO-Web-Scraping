@@ -12,7 +12,7 @@ options.add_argument("--headless")
 options.add_argument("--window-size=1920,1200")
 
 # install chrome driver with attributes
-driver = webdriver.Chrome(executable_path='chromedriver', options=options)
+driver = webdriver.Chrome(options=options)
 
 
 # run web page and extract demands

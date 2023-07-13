@@ -12,7 +12,7 @@ options.add_argument("--headless")
 options.add_argument("--window-size=1920,1200")
 
 # install chrome driver with attributes
-driver = webdriver.Chrome(executable_path='chromedriver', options=options)
+driver = webdriver.Chrome(options=options)
 
 
 # run web page and download table as csv
@@ -28,7 +28,7 @@ def download_supply_by_year(year):
 
 
 # download supply datasets one by one
-download_supply_by_year(2015)
+download_supply_by_year(2023)
 
 # close browser
 driver.quit()
