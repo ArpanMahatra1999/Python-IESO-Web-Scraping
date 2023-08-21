@@ -1,4 +1,5 @@
 # Python-IESO-Web-Scraping
+Python webscraping project to collect hourly data of supply, demand and price and download supply data.
 
 Tools used:
 1. Selenium
